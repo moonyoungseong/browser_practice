@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>cssBox 모델(구글)</title>
+    <style>
+        h1{
+            font-size: 80px;
+            margin-left: 800px;
+            margin-top: 200px;
+            margin-bottom: 20px;
+        }
+        input{
+            margin-left: 755px;
+            padding: 5px;
+            border: 1px solid Lightgray;
+            border-radius: 8px;
+            width:320px;
+        }
+        .bottom{
+            margin-top: 10px
+        }
+        .bottom button{
+            padding: 5px;
+            border: 1px solid Lightgray;
+            border-radius: 5px;
+        }
+        .bottom button:nth-child(1){
+            margin-left: 840px;
+        }
+        h1 span:nth-child(1){
+            color:#4184f4;
+        }
+        h1 span:nth-child(2){
+            color:#ea4235;
+        }
+        h1 span:nth-child(3){
+            color:#fabc08;
+        }
+        h1 span:nth-child(4){
+            color:#4184f4;
+        }
+        h1 span:nth-child(5){
+            color:green;
+        }
+        h1 span:nth-child(6){
+            color:#ea4235;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+    <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </h1>
+    <input type="text"/>
+    <div class="bottom">
+    <button>Google 검색</button>
+    <button>I'm Feeling Lucky</button>
+    </div>
+</body>
+</html>
